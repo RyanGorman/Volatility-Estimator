@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Stock Volatility</title>
+    <title>Stock Volatility</title>
 </head>
 <body>
-<h1>Stock Volatility</h1>
-<form method="POST">
-<label for="symbol">Enter stock symbol:</label>
-<input type="text" id="symbol" name="symbol">
-<input type="submit" value="Submit">
-</form>
-
+    <h1>Stock Volatility</h1>
+    <form method="POST">
+        <label for="symbol">Enter stock symbol:</label>
+        <input type="text" id="symbol" name="symbol">
+        <input type="submit" value="Submit">
+    </form>
+    
+    <!-- Display the saved Plotly graph image -->
+    <img src="{{ image_path }}" alt="Volatility Plot">
 </body>
 </html>
-
